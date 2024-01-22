@@ -203,3 +203,9 @@ input{
     right: 1%;
     font-family: Arial, Helvetica, sans-serif;
  }
+
+ @media only screen and (max-width: 720px) {
+   .background{
+      background-color: #000;
+   }
+ }
