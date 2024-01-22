@@ -205,8 +205,14 @@ input{
  }
 
  @media only screen and (max-width: 720px) {
+   .slides{
+     
+   }
    .slider {
-      width: 250px;
+      left: 75px;
+      position: relative;
+      top: 75px;
+      width: 220px;
       height: 200px;
       overflow: hidden;
       border: 3px solid #000;
@@ -260,23 +266,23 @@ input{
     }
     .charact{
       
-      top: 40%;
+      top: 63%;
       padding: 5px;
     }
 
     .right_border h1{
-      top: 20%;
-      left: 37%;
+      top: 40%;
+      left: 64%;
     }
 
     .right_border p{
-      top: 23%;
-      left: 39%;
+      top: 45%;
+      left: 67%;
     }
 
     .styled{
-      top: 26%;
-      left: 37%;
+      top: 50%;
+      left: 63%;
     }
 
    }
