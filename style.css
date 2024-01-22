@@ -203,14 +203,85 @@ input{
     right: 1%;
     font-family: Arial, Helvetica, sans-serif;
  }
-@media only screen and (max-width: 720px) {
-    
- .slider {
-    width: 250px;
-    height: 200px;
-    overflow: hidden;
-    border: 3px solid #000;
-    margin: 30px;
-    
- }
-}
+
+ @media only screen and (max-width: 720px) {
+   .slider {
+      width: 250px;
+      height: 200px;
+      overflow: hidden;
+      border: 3px solid #000;
+      margin: 30px;
+      
+   }
+
+   .menu{
+      position: relative;
+      list-style: none;
+     left: 50vh;
+  }
+  
+  .menu a{
+      text-decoration: none;
+      display: inline-block;
+      color: #1c70c9;
+      padding: 10px 20px;
+      background-color: lavender;
+      border-bottom: 5px solid #1c87c9;
+  } 
+  
+  .menu li{
+      display: none;
+  }
+  
+  .search_div{
+      display: none;
+  }
+  
+  
+      .search {
+         display: none;
+  }
+      .submit{
+         display: none;
+  }
+
+  
+
+   body, html{
+      overflow: hidden; /* Заборонити прокручування для body та html */
+      height: 100%; /* Забезпечити повний розмір висоти для body та html */
+      margin: 0; /* Скасувати зовнішній відступ для body та html */
+      
+    }
+
+    .background{
+      width: 100%; /* Фіксована ширина контейнера, можна вказати в пікселях або інших одиницях виміру */
+  
+    }
+    .charact{
+      
+      top: 40%;
+      padding: 5px;
+    }
+
+    .right_border h1{
+      top: 20%;
+      left: 37%;
+    }
+
+    .right_border p{
+      top: 23%;
+      left: 39%;
+    }
+
+    .styled{
+      top: 26%;
+      left: 37%;
+    }
+
+   }
+ 
+  
+   
+ 
+
